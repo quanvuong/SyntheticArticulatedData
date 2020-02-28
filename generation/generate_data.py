@@ -42,7 +42,7 @@ def main(args):
 parser = argparse.ArgumentParser(description="tool for generating articulated object data")
 parser.add_argument('--n', type=int, default=int(1),
 					help='number of examples to generate')
-parser.add_argument('--dir', type=str, default='../microtrain/')
+parser.add_argument('--dir', type=str, default='./microtrain/')
 parser.add_argument('--obj', type=str, default='microwave')
 parser.add_argument('--masked', action='store_true', default=False, help='remove background of depth images?')
 parser.add_argument('--debug', action='store_true', default=False)
